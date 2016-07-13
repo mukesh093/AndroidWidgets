@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android_Widgets</string>
+    <string name="open">Button</string>
+    <string name="open1">EditText</string>
+    <string name="open2">AutoCompleteTextView</string>
+    <string name="open3">ToggleButton</string>
+    <string name="open4">DatePicker</string>
+    <string name="open5">TimePicker</string>
+    <string name="open6">ProgressBar</string>
+    <string name="add">Add</string>
+    <string name="question">What is your favourite programming language?</string>
+    <string name="name">toggleButton1</string>
+    <string name="name1">toggleButton2</string>
+    <string name="submit">Submit</string>
+</resources>
