@@ -10,7 +10,8 @@ import android.widget.AutoCompleteTextView;
  * Created by bridgeit on 1/7/16.
  */
 public class autoCompleteTextView extends AppCompatActivity {
-    String[] language ={"C","C++","Java",".NET","iPhone","Android","ASP.NET","PHP"};
+    String[] language ={"C","C++","Java",".NET","iOS","Android","ASP.NET","PHP","Angular",
+    "C#"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

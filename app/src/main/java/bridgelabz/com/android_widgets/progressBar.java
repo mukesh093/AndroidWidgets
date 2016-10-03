@@ -24,10 +24,11 @@ public class progressBar extends AppCompatActivity{
 
         addListenerOnButtonClick();
     }
+
     public void addListenerOnButtonClick() {
         btnStartProgress = (Button) findViewById(R.id.button1);
-        btnStartProgress.setOnClickListener(new View.OnClickListener(){
 
+        btnStartProgress.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 // creating progress bar dialog
@@ -67,6 +68,7 @@ public class progressBar extends AppCompatActivity{
             }//end of onClick method
         });
     }
+
     // checking how much file is downloaded and updating the filesize
     public int doOperation() {
         //The range of ProgressDialog starts from 0 to 10000

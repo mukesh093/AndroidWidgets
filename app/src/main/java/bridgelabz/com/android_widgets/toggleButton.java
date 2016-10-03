@@ -21,6 +21,7 @@ public class toggleButton extends AppCompatActivity{
 
         addListenerOnButtonClick();
     }
+
     public void addListenerOnButtonClick(){
         //Getting the ToggleButton and Button instance from the layout xml file
         toggleButton1=(ToggleButton)findViewById(R.id.toggleButton1);
@@ -29,7 +30,6 @@ public class toggleButton extends AppCompatActivity{
 
         //Performing action on button click
         buttonSubmit.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public void onClick(View view) {
                 StringBuilder result = new StringBuilder();
@@ -38,9 +38,7 @@ public class toggleButton extends AppCompatActivity{
                 //Displaying the message in toast
                 Toast.makeText(toggleButton.this, result.toString(), Toast.LENGTH_LONG).show();
             }
-
         });
-
     }
 }
 

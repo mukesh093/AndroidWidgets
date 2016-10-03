@@ -13,27 +13,28 @@ import android.widget.TextView;
 public class datePicker extends AppCompatActivity {
     DatePicker picker;
     Button displayDate;
-    TextView textview1;
+    TextView textView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.date_picker_main);
 
-        textview1=(TextView)findViewById(R.id.textView1);
+        textView=(TextView)findViewById(R.id.textView1);
         picker=(DatePicker)findViewById(R.id.datePicker1);
         displayDate=(Button)findViewById(R.id.button1);
 
-        textview1.setText(getCurrentDate());
+        textView.setText(getCurrentDate());
 
         displayDate.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                textview1.setText(getCurrentDate());
+                textView.setText(getCurrentDate());
             }
 
         });
     }
+
     public String getCurrentDate(){
         StringBuilder builder=new StringBuilder();
         builder.append("Current Date: ");

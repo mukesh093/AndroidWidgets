@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    android.widget.Button button,editText,autoComplete,toggleButton,datePicker,timePicker,progressBar;
+    Button button,editText,autoComplete,toggleButton,datePicker,timePicker,progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
